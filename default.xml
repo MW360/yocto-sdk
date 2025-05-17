@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="github" fetch="https://github.com"/>
-  <remote name="nxp" fetch="https://source.codeaurora.org/external"/>
   <remote name="yocto" fetch="https://git.yoctoproject.org/git"/>
   
   <project name="OSSystems/meta-browser" path="sources/meta-browser" remote="github" revision="8be1d3a0ba0cf32e61144900597207af5698c10d"/>
@@ -14,7 +13,7 @@
   <project name="meta-virtualization" path="sources/meta-virtualization" remote="yocto" revision="7f719ef40896b6c78893add8485fda995b00d51d"/>
   <project name="openembedded/meta-openembedded" path="sources/meta-openembedded" remote="github" revision="f44e1a2b575826e88b8cb2725e54a7c5d29cf94a"/>
   <project name="poky" path="sources/poky" remote="yocto" revision="269265c00091fa65f93de6cad32bf24f1e7f72a3"/>
-  <project name="qoriq/qoriq-components/meta-qoriq" path="sources/meta-qoriq" remote="nxp" revision="09a202300cea31df2bdb09f02b1b1f2fccfd5b2f">
+  <project name="qoriq/qoriq-components/meta-qoriq" path="nxp-qoriq/meta-qoriq" remote="github" revision="09a202300cea31df2bdb09f02b1b1f2fccfd5b2f">
     <copyfile src="tools/setup-env" dest="setup-env"/>
   </project>
 </manifest>
